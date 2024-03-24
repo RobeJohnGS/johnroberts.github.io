@@ -6,3 +6,9 @@ h1{
     border-style:double;
     border-color: black;
 }
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
