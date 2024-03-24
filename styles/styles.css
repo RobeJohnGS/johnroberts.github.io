@@ -1,14 +1,40 @@
 body{
-    background-color: red;
+    background-color: darkred;
 }
 
-h1{
-    border-style:double;
-    border-color: black;
-}
-
-.navbar {
-    list-style-type: none;
+.navbar-div {
+    
+    display: inline-block;
+    position: relative;
     margin: 0;
     padding: 0;
+    overflow: hidden;
+    background-color: gray;
+}
+
+.nav-item {
+    float: right;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.nav-title{
+    color: #fff;
+    padding: 10px;
+}
+
+.nav-links {
+    list-style-type: none;
+}
+
+li h1 {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
 }
