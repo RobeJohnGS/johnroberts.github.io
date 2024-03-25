@@ -2,39 +2,24 @@ body{
     background-color: darkred;
 }
 
-.navbar-div {
-    
-    display: inline-block;
-    position: relative;
+.navbar-div{
+}
+
+.nav-ul{
+    list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: gray;
 }
 
 .nav-item {
-    float: right;
-    padding: 10px;
-    text-decoration: none;
+    float: left;
 }
 
-.nav-title{
-    color: #fff;
-    padding: 10px;
-}
-
-.nav-links {
-    list-style-type: none;
-}
-
-li h1 {
+.nav-item a {
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-}
-
-li a:hover {
-    background-color: #111;
 }
