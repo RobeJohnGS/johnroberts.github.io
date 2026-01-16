@@ -1124,3 +1124,10 @@ section {
   object-fit: cover; /* Ensures the image covers the space while maintaining aspect ratio */
   max-height: 400px; /* Set a max height if needed to avoid stretching */
 }
+
+.blogimage{
+  width: 70%;
+  border: 3px solid #2c2f3f;
+  border-radius: 5px;
+  margin: 10px 0px 20px 0px;
+}
